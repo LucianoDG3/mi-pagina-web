@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos de la sección de inicio */
+#inicio {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#inicio h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos de la sección de productos */
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.product-box {
+  width: calc(50% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.product-box:nth-child(odd) {
+  margin-right: 20px;
+}
+
+#productos h2 {
+  margin-top: 0;
+}
+
+/* Estilos adicionales para una mejor apariencia */
+.product-box h3,
+.product-box p {
+  margin: 0;
+}
+
+.product-box h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilos de la sección de ubicación */
+#ubicacion {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#ubicacion h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos de la sección de contacto */
+#contacto {
+  background-color: #eee;
+  padding: 20px;
+}
+
+#contacto h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos adicionales para responsive */
+@media (max-width: 768px) {
+  .product-box {
+    width: 90%;
+    margin-right: 0;
+  }
+}
