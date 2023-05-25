@@ -81,13 +81,6 @@ footer {
   margin-bottom: 20px;
 }
 
-.product-image3 {
-  height: 190px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-}
-
 .product-box:nth-child(odd) {
   margin-right: 20px;
 }
