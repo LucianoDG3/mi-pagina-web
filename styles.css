@@ -55,12 +55,15 @@ footer {
 
 /* Estilos de la sección de productos */
 #productos {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.product-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  padding: 20px;
+  align-items: flex-start;
 }
 
 .product-box {
@@ -84,6 +87,7 @@ footer {
 
 #productos h2 {
   margin-top: 0;
+  text-align: center;
 }
 
 /* Estilos adicionales para una mejor apariencia */
@@ -132,3 +136,4 @@ footer {
     margin-right: 0;
   }
 }
+
