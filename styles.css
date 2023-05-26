@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del header */
+header {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Cambiado a centrar horizontalmente */
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  margin-right: auto; /* Agregado margen a la derecha para centrar */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Agregado para centrar horizontalmente */
+  margin-right: 25px;
+}
+
+nav ul li {
+  margin-left: 20px; /* Aumentado el margen izquierdo */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Quitado el margen izquierdo del primer elemento */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de la sección de inicio */
+#inicio {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0; /* Aumentado el espacio vertical */
+  margin-top: 80px; /* Agregado margen superior para separar del header */
+}
+
+#inicio h2 {
+  margin-top: 0;
+}
+
+/* Estilos de la sección de productos */
+#productos {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.product-box {
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* Estilos de la sección de ubicación y contacto */
+#ubicacion,
+#contacto {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Reglas de media queries para teléfonos */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+  #inicio {
+    padding: 60px 0;
+  }
+
+  #productos {
+    padding: 60px 0;
+  }
+
+  .product-image {
+    width: 300px;
+    height: 200px;
+  }
+
+  #ubicacion,
+  #contacto {
+    padding: 20px 0;
+  }
+}
