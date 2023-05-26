@@ -34,7 +34,7 @@ h1 {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   display: flex;
   justify-content: center; /* Agregado para centrar horizontalmente */
 }
@@ -107,6 +107,7 @@ footer {
 
   nav ul li {
     margin-left: 5px;
+    margin.right: 5px;
   }
 
   #inicio {
