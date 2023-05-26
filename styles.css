@@ -1,6 +1,5 @@
 /* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -37,7 +36,6 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: 10%;
   justify-content: center; /* Agregado para centrar horizontalmente */
 }
 
@@ -69,7 +67,7 @@ nav ul li a {
 /* Estilos de la sección de productos */
 #productos {
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .product-box {
@@ -77,8 +75,8 @@ nav ul li a {
 }
 
 .product-image {
-  width: 550px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -100,38 +98,7 @@ footer {
   padding: 10px;
 }
 
-/* Reglas de media queries para responsive */
-
-/* Ajustes para pantallas más pequeñas */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  nav ul li {
-    margin-left: 10px;
-  }
-
-  #inicio {
-    padding: 80px 0;
-  }
-
-  #productos {
-    padding: 20px 0;
-  }
-
-  .product-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  #ubicacion,
-  #contacto {
-    padding: 20px 0;
-  }
-}
-
-/* Ajustes para pantallas aún más pequeñas */
+/* Reglas de media queries para teléfonos */
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 18px;
@@ -146,16 +113,16 @@ footer {
   }
 
   #productos {
-    padding: 10px 0;
+    padding: 20px 0;
   }
 
   .product-image {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 
   #ubicacion,
   #contacto {
-    padding: 10px 0;
+    padding: 20px 0;
   }
 }
