@@ -37,11 +37,11 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center; /* Agregado para centrar horizontalmente */
+  margin-right: 20px;
 }
 
 nav ul li {
   margin-left: 20px; /* Aumentado el margen izquierdo */
-  margin-right: 20px;
 }
 
 nav ul li:first-child {
@@ -107,7 +107,6 @@ footer {
 
   nav ul li {
     margin-left: 10px;
-    margin-right: 10px;
   }
 
   #inicio {
