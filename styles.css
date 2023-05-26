@@ -33,7 +33,7 @@ h1 {
 
 nav ul {
   list-style: none;
-  margin: 15px;
+  margin: 0;
   padding: 20px;
   display: flex;
   justify-content: center; /* Agregado para centrar horizontalmente */
